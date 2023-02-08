@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Urbanist:wght@400;500;600;700;800;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+body{
+    /* font-family: 'Urbanist', sans-serif !important; */
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-weight: 600;
+    
+
+}
+
+table{
+    /* height: calc(100vh - 100px); */
+
+  
+    
+
+  
+
+}
+.tablebox{
+    max-height: 500px !important;
+    overflow-y: auto;
+}
+tbody{
+  max-height: 500px !important;
+  overflow-y: auto !important;
+}
+
+
+thead{
+    border-radius: 6px 6px 0 0 ;
+}
+
+th, td , tr{
+    white-space: nowrap;
+    text-align: center;
+}
+th{
+    padding: 15px 0 !important;
+}
+
+.t{
+    width: 60px;;
+    height: 20px;
+    padding: 10px !important;;
+    font-size: 10px !important;;
+}
+
+.td-box{
+    display: grid;
+    width: 100%;
+    min-height: 37.6px;
+    text-align: center;
+    place-items: center;
+}
+
+.td-box p{
+    margin-bottom: 0px;
+}
+
+.span-box{
+    display: grid;
+    width: 100%;
+    min-height: 37.6px;
+    text-align: center;
+    place-items: center;
+}
+
+span.btn{
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 100px;
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+
+.dashcard{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease;
+    border-radius: 8px;;
+}
+
+.dashcard:hover{
+   transform: scale(0.92);
+}
+nav img{
+    width: 30px !important;
+    height: 30px !important;
+}
+.container-fluid{
+margin: 0px !important;
+padding: 0px !important;
+
+}
+.row{
+  margin: 0px !important;
+padding: 0px !important;
+}
+.listcont{
+  display: block;
+  width: 98% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow: auto;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: red;
+    color: white;
+    text-align: center;
+    background-color: aliceblue !important;
+  }
+
+
+  .dashnavbtn{
+    background-color: rgb(43, 4, 37) !important;
+    border: 2px solid rgb(209, 26, 166) !important;
+    color: white !important;
+    
+
+  }
+  
+  .dashnavbtn:hover{
+    background-color: rgb(239, 21, 206) !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    color: white !important;
+  }
+
+  
+
+  .dashnavbtnitems{
+    background-color: rgb(39, 16, 102) !important;
+    border: 2px solid rgb(221, 244, 10) !important;
+    color: white !important;
+  }
+
+  .dashnavbtnitems:hover{
+    background-color: rgb(69, 39, 150) !important;
+    border: 2px solid rgb(214, 121, 222) !important;
+    color: white !important;
+    
+  
+  }
+  
+  
+  
+
+  .navlogoutbtn{
+    width: 120px;
+    background-color: rgb(27, 3, 3);
+    border: 2px solid rgb(13, 219, 26) !important;
+    color: white !important;
+    
+  }
+
+  .navlogoutbtn:hover{
+    background-color: rgb(235, 10, 10) !important;
+    border: 2px solid rgb(214, 228, 25) !important;
+    color:white !important;
+  }
+
+  .regnavbtn{
+    
+    background-color: rgb(27, 3, 3);
+    border: 2px solid rgb(13, 219, 26) !important;
+    color: white !important;
+    
+  }
+
+  .regnavbtn:hover{
+    background-color: rgb(32, 4, 26) !important;
+    border: 2px solid rgb(236, 9, 168) !important;
+    color:white !important;
+  }
+
+  .footerlogo{
+    width: 200px;;
+  }
+
+  .footericons{
+    width: 25px;;
+  }
+
+
+
+
+
